@@ -4,7 +4,7 @@ Este repositorio contiene dos scripts de Python desarrollados como parte de un d
 
 ## Código 1: Calculadora de IMC
 
-El primer script es una calculadora de Índice de Masa Corporal (IMC). Este programa solicita al usuario que ingrese su peso y altura, y luego calcula el IMC utilizando la fórmula `peso / (altura ** 2)`. Además, el programa clasifica el IMC del usuario según los estándares de la Organización Mundial de la Salud.
+El primer script es una calculadora de Índice de Masa Corporal (IMC). Este programa solicita al usuario que ingrese su peso y altura, y luego calcula el IMC. Además, el programa clasifica el IMC del usuario según los estándares de la Organización Mundial de la Salud.
 
 ## Código 2: Cachipun
 
