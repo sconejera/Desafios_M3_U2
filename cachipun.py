@@ -38,14 +38,14 @@ def ganador(jugada_usuario, jugada_computador):
     if jugada_usuario == jugada_computador:
       return "Empate!😑"
 
-    elif jugada_usuario == "piedra":
-        if jugada_computador == "tijera":
+    if jugada_usuario == "piedra":
+        elif jugada_computador == "tijera":
           return "Ganaste!!😁"
         else:
           return "Perdiste!😵"
 
-    elif jugada_usuario == "papel":
-        if jugada_computador == "piedra":
+    if jugada_usuario == "papel":
+        elif jugada_computador == "piedra":
           return "Ganaste!!😁"
         else:
           return "Perdiste!😵"
