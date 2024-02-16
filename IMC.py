@@ -5,7 +5,7 @@ print("-------------------------------------------------------------------------
 
 def calcular_imc(peso, altura):
 
-    imc = peso / (altura ** 2)
+    imc = peso / ((altura/100) ** 2)
     return round(imc, 2)
 
 
@@ -39,7 +39,7 @@ def main():
 
     while True:
         try:
-            altura = float(input("Ingrese su altura en metros: "))
+            altura = float(input("Ingrese su altura en centimetros: "))
             if altura <=0:
                 raise ValueError("La altura debe ser un valor positivo")
             break
