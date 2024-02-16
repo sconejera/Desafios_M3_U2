@@ -38,14 +38,14 @@ def ganador(jugada_usuario, jugada_computador):
     if jugada_usuario == jugada_computador:
       return "Empate!😑"
 
-    if jugada_usuario == "piedra":
-        elif jugada_computador == "tijera":
+    elif jugada_usuario == "piedra":
+        if jugada_computador == "tijera":
           return "Ganaste!!😁"
         else:
           return "Perdiste!😵"
 
-    if jugada_usuario == "papel":
-        elif jugada_computador == "piedra":
+    elif jugada_usuario == "papel":
+        if jugada_computador == "piedra":
           return "Ganaste!!😁"
         else:
           return "Perdiste!😵"
@@ -61,7 +61,7 @@ while True:
     try:
         jugada_usuario = input("\nTu jugada: ")
         if jugada_usuario not in OPCIONES:
-            raise ValueError("Entrada invalida: Debe ser piedra, papel o tijera")
+            raise ValueError("Argumento inválido: Debe ser piedra, papel o tijera")
         break
     except ValueError as x:
         print(x)
