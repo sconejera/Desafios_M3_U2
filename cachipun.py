@@ -61,7 +61,7 @@ while True:
     try:
         jugada_usuario = input("\nTu jugada: ")
         if jugada_usuario not in OPCIONES:
-            raise ValueError("Argumento inválido: Debe ser piedra, papel o tijera")
+            raise ValueError("Entrada invalida: Debe ser piedra, papel o tijera")
         break
     except ValueError as x:
         print(x)
